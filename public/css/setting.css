@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: font;
+    font-family: myfont;
 }
 .container{
     width: 100%;
     background-color: deeppink;
 }
 @font-face {
-    font-family: font;
+    font-family:  myfont;
     src: url(../fonts/IRANYekanWeb.eot);
     src: url(../fonts/IRANYekanWeb.ttf);
     src: url(../fonts/IRANYekanWeb.woff);
