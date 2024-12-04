@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font;
+}
+.container{
+    width: 100%;
+    background-color: deeppink;
+}
+@font-face {
+    font-family: font;
+    src: url(../fonts/IRANYekanWeb.eot);
+    src: url(../fonts/IRANYekanWeb.ttf);
+    src: url(../fonts/IRANYekanWeb.woff);
+    src: url(../fonts/IRANYekanWeb.woff2);
+}
+:root{
+    --ErrigalWhite:#f2f2f2;
+    --WindChime:#e0e0e2;
+    --Genie:#3f4064;
+    --GreyWeb:#62666d;
+    --SilentFilm:#a1a3a8;
+    --LustfulWishes:#bd4399;
+    --Pāua:#23254e;
+}

@@ -1,0 +1,51 @@
+.slider1{
+    .swiper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: flex;
+        width: 74px;
+        height:74px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid white;
+        outline: 2px solid var(--LustfulWishes);
+        margin-top: 17px;
+        margin-bottom: 10px;
+}
+}
+
+.slider2{
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 401px;
+        object-fit: cover;
+      } 
+}
