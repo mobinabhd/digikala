@@ -150,6 +150,28 @@ header{
                     padding: 0px 12px;
                     color: var(--Genie);
                     font-size: 12px;
+                    position: relative;
+
+                    .linee{
+                      width: 100%;
+                      height: 5px;
+                      background-color: crimson;
+                      position: absolute;
+                      bottom: 0;
+                      left: 0;
+                      transform:scale(0) ;
+                      transition: 300ms;
+                      transform-origin: left;
+}
+&:hover{
+    transform:rotatey(45deg) translateX(200px) scale(1.5);
+    .linee{
+        transform: scale(1);
+     
+       
+}
+}
+}
 
                    .subMenu{
                     width:78%;
@@ -171,9 +193,9 @@ header{
                 
                    }
                    .line2{
-                    width:10px;
-                    height: 24px;
-                    background-color: aqua;
+                    width:1px;
+                    height: 16px;
+                    background-color: var(--WindChime);
                     display: block;
                    
                 }
@@ -240,4 +262,9 @@ header{
     } */
 
     
-}
+
+/* .khat{
+    width: 100%;
+    height: 1px;
+    background-color: crimson;
+} */

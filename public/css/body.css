@@ -10,10 +10,6 @@ margin-top: 8px;
     width:100%;
     height: 151px;
     background-color: blue;
-    position: absolute;
-    
-    
-    
     .mahsol{
         display: flex;
         
@@ -35,4 +31,12 @@ margin-top: 8px;
         align-items: flex-start;
     
 }
+}
+.section1{
+    width: 100%;
+    padding: 0 10px;
+    .secttion{
+        height: 294px;
+        background-color: tomato;
+    }
 }
