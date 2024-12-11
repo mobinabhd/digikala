@@ -49,3 +49,46 @@
         object-fit: cover;
       } 
 }
+.slider3{
+  .swiper {
+    width: 100%;
+    height:100%;
+    
+   
+  }
+  .swiper-wrapper{
+width: 1052px;
+height: 254px;
+
+
+  }
+  .swiper-slide1{
+    width: 162px;
+    height: 254px;
+    background-color:#EF3C51 ;
+    display: flex;
+  }
+  .swiper-slide {
+    width: 162px;
+    height: 254px;
+    margin: 0 0 0 2px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29px;
+    display: flex;
+
+  }
+
+  .swiper-slide img {
+    display:block;
+    width:132px;
+    height:132px;
+    object-fit: contain;
+    border-radius: 8px;
+
+}
+}

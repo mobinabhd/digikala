@@ -9,7 +9,7 @@ margin-top: 8px;
 .mahsolat{
     width:100%;
     height: 151px;
-    background-color: blue;
+    
     .mahsol{
         display: flex;
         
@@ -37,6 +37,53 @@ margin-top: 8px;
     padding: 0 10px;
     .secttion{
         height: 294px;
-        background-color: tomato;
+        background-color:#EF3C51;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+}
+}
+.container1{
+    width: 100%;
+    height: 220px;
+    background-color: violet;
+    display: flex;
+    padding: 0 16px;
+    column-gap: 16px;
+    flex-flow: row wrap;
+
+    .img-container{
+       width: 20%;
+       height: 187px;
+       margin-top: 17px;
+       background-color: teal;
+       object-fit: cover;
+       border-radius: 16px;
+      display: flex;
+      
+       
+     
+}
+}
+.container2{
+    width: 100%;
+    height: 111px;
+    background-color: chocolate;
+    border-radius: 16px;
+   
+    .right-container{
+        width: 50%;
+        height: 100%;
+        background-color: cornflowerblue;
+       
     }
+    .left-container{
+        width: 50%;
+        height: 100%;
+        background-color: tan;
+        left: 0%;
+    }
+   
 }
