@@ -53,6 +53,7 @@ margin-top: 8px;
     padding: 0 16px;
     column-gap: 16px;
     flex-flow: row wrap;
+    
 
     .img-container{
         
@@ -81,7 +82,7 @@ margin-top: 8px;
     border-radius: 16px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content:flex-start;
+    justify-content:space-around;
     padding: 0 40px;
     gap: 32px;
     /* & a{
@@ -143,9 +144,8 @@ margin-top: 8px;
     flex-wrap: nowrap;
     & h3{
     margin: 0;
-    
     color: #000000;
-    font-size: 2.1rem;
+    font-size: 21px;
     white-space:nowrap;
     line-height: 44px;
     }
