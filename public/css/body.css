@@ -106,13 +106,11 @@ margin-top: 8px;
 .container2{
    width: 100%;
    height: 110px;
-   background-color: dodgerblue;
    /* margin: 0 11px; */
 
    .cont2{
     width: 100%;
     height: 100px;
-    background-color: aqua;
    display: flex;
    overflow-x: hidden;
    
@@ -121,7 +119,6 @@ margin-top: 8px;
     & a{
         width: 100%;
         height: 100px;
-        background-color: darkgray;
         display: flex;
         padding: 0 40px;
         padding-top: 16px;
@@ -136,7 +133,6 @@ margin-top: 8px;
        .cont2-right{
         width: 464px;
         height: 62px;
-        background-color: fuchsia;
         align-items: center;
         z-index: 1;
         flex-direction: row;
@@ -146,14 +142,12 @@ margin-top: 8px;
             width: 356px;
             height: 62px;
             display: flex;
-            background-color: lightsalmon;
             align-items: center;
             z-index: 1;
 
             .img-cont2{
                 width: 66px;
                 height: 62px;
-                background-color: rebeccapurple;
              
                 & img{
                     width: 66px;
@@ -170,7 +164,6 @@ margin-top: 8px;
                 & img{
                     width: 250px;
                     height: 28px;
-                    background-color: deepskyblue;
                     object-fit: contain;
                 }
             }
@@ -438,7 +431,7 @@ margin-top: 8px;
 }
 
 .container6{
-    width: 100%;
+    width: 1336px;
     height: 224px;
     padding: 24px 0 ;
     margin: 15px 0;
@@ -509,15 +502,15 @@ margin-top: 8px;
 }
 
 .container8{
-    width: 100%;
+    width: 1336px;
     height: 418px;
-    /* background-color: cadetblue; */
     gap: 1px;
     border: 1px solid var(  --WindChime);
     border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 16px 0;
 
     .container8-1{
         width: 100%;
@@ -693,21 +686,26 @@ margin-top: 8px;
 }
 
 .container9{
-    width: 100%;
+    width: 1336px !important;
     height: 404px;
-    /* background-color: violet; */
+    /*background-color: violet;
+    */
+    border: 1px solid #e0e0e2;
+    border-radius:16px ;
 
-    .container9-part1{
-        width:100% ;
+        .container9-part1{
+        width:1336px;
         height: 404px;
         /* background-color: tomato; */
         border: 1px solid  var(--WindChime);
         display: flex;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding: 16px 0;
         justify-content: center;
         flex-direction: column;
         position: relative;
+        border: 1px solid #e0e0e2;
+        border-radius:16px ;
+       
 
         .text-container9{
 
@@ -763,6 +761,8 @@ margin-top: 8px;
                     padding-left: 16px;
                     cursor: pointer;
                     order: -1;
+                    border: none;
+                    background-color: transparent;
                     .text-container9-2{
                         width: 76px;
                         height: 30px;
@@ -776,11 +776,107 @@ margin-top: 8px;
                 }
             }
         }
-    }
+   
+    .container9-part2{
+        width:100%;
+        height: 298px;
+        margin-top: 28px;
+        padding: 0 8px;
+
+      .slider5{
+
+        width: 1318px;
+        height: 298px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        padding: 0;
+        list-style: none;
+
+        .swiper-wrapper{
+            width: 1318px;
+            height: 298px;
+            display: flex;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            box-sizing: content-box;
+        }
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .swiper-slide {
+        width: 314px;
+        height: 298px;
+        margin-left: 20px;
+
+        .a-slider5{
+            width: 314px;
+            height: 86px;
+            display: flex;
+            text-decoration: none;
+
+            .div-slider5{
+                width: 314px;
+                height: 86px;
+                display: flex;
+
+                .img-slider5{
+                    width: 86px;
+                    height: 86px;
+                    margin-left: 12px;
+
+                    & img{
+                        width: 86px;
+                        height: 86px;
+                        object-fit: contain;
+                    }
+                }
+                & span{
+                    width: 7px;
+                    height: 86px;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 12px;
+                    font-size: 21px;
+                    color: var(--Strongcyan);
+                    font-weight: 800;
+                }
+                
+                    
+                }
+                .p-slider5{
+                    width: 197px;
+                    height: 86px;
+                    display: flex;
+                    justify-content: center;
+                    flex-grow: 1;
+                    flex-direction: column;
+                    position: relative;
+                    font-size: 12px;
+                    color: var(--Genie);
+                }
+            }
+        }
+      
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      }
+      }
 }
 
+
 .container8{
-    width: 100%;
+    width: 1336px;
     height: 418px;
     /* background-color: cadetblue; */
     gap: 1px;
@@ -964,9 +1060,11 @@ margin-top: 8px;
 }
 
 .container11{
-    width: 100%;
+    width: 1336px;
     height: 167px;
     /* background-color: springgreen; */
+    margin: 16px 0;
+    
 
     .container11-{
         width: 100%;
@@ -1005,19 +1103,19 @@ margin-top: 8px;
 }
 
 .container12{
-    width: 100%;
+    width:1336px !important;
     height: 813px;
-    background-color:wheat ;
+    margin: 16px 0;
 
     .cont12{
         width:100%;
         height: 813px;
-        background-color: yellowgreen;
+        border: 1px solid #e0e0e2;
+        border-radius: 16px;
 
         .container12-part1{
             width: 100%;
             height: 76px;
-            background-color: chocolate;
             padding: 16px 0;
             margin-bottom: 8px;
             display: flex;
@@ -1027,13 +1125,11 @@ margin-top: 8px;
             .svg1-container12{
                 width: 24px;
                 height: 24px;
-                background-color: turquoise;
                 color: var(--Brightred);
             }
             & h3{
                 width: 290px;
                 height: 44px;
-                background-color: violet;
                 margin-right: 8px;
                 color: #000000;
                 line-height: 44px;
@@ -1045,17 +1141,15 @@ margin-top: 8px;
         .container12-part2{
             width: 100%;
             height: 727px;
-            background-color: teal;
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             grid-auto-rows: 242px;
             gap: 0px;
-            
+           
 
             & a{
                 width: 218px;
                 height: 242px;
-                background-color: tan;
                 border-bottom: 1px solid var(    --WindChime);
                 border-left: 1px solid var(    --WindChime);
                 padding: 12px 8px;
@@ -1071,13 +1165,10 @@ margin-top: 8px;
                 .card-container12{
                     width: 201px;
                     height: 217px;
-                    background-color: seagreen;
-                   
 
                     & article{
                         width: 201px;
                         height: 217px;
-                        background-color: slateblue;
                         display: flex;
                         overflow: hidden;
                         justify-content: flex-start;
@@ -1090,7 +1181,6 @@ margin-top: 8px;
                         .card-2part{
                             width: 201px;
                             height: 217px;
-                            background-color: #EF3C51;
                             display: flex;
                             position: relative;
                             flex-grow: 1;
@@ -1099,12 +1189,10 @@ margin-top: 8px;
                             .card-part1{
                                 width: 201px;
                                 height: 154px;
-                                background-color: darkblue;
 
                                 .card-part1-{
                                 width: 201px;
                                 height: 154px;
-                                background-color: cornflowerblue;
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
@@ -1114,7 +1202,6 @@ margin-top: 8px;
                                 .card-part1--{
                                     width: 150px;
                                     height: 150px;
-                                    background-color: yellow;
                                     display: flex;
                                     margin: 0 auto;
                                     align-items: flex-start;
@@ -1122,12 +1209,10 @@ margin-top: 8px;
                                     .img-container12{
                                         width: 150px;
                                         height: 150px;
-                                        background-color: aquamarine;
 
                                         & img{
                                             width: 150px;
                                             height: 150px;
-                                            background-color: turquoise;
                                             display: inline-block;
                                             object-fit: contain;
                                             border-radius: 8px;
@@ -1143,7 +1228,6 @@ margin-top: 8px;
                             .card-part2{
                                 width: 201px;
                                 height: 63px;
-                                background-color: rgb(58, 3, 58);
                                 display: flex;
                                 justify-content: flex-start;
                                 align-items: stretch;
@@ -1153,7 +1237,6 @@ margin-top: 8px;
                                 .card-part2-2row{
                                     width: 201px;
                                     height: 63px;
-                                    background-color: yellow;
                                     display: flex;
                                     padding-top: 4px;
                                     justify-content: space-between;
@@ -1163,7 +1246,6 @@ margin-top: 8px;
                                     .card-part2-row1{
                                         width: 201px;
                                         height: 33px;
-                                        background-color: tomato;
                                         display: flex;
                                         align-items: center;
                                         justify-content: space-between;
@@ -1181,7 +1263,6 @@ margin-top: 8px;
                                             & span{
                                                 width: 12px;
                                                 height: 26px;
-                                                /* background-color: wheat; */
                                                 font-weight: 700;
                                                 font-size: 12px;
                                                 color: #FFFFFF;
@@ -1191,7 +1272,6 @@ margin-top: 8px;
                                         .text-left-row1{
                                             width: 167px;
                                             height: 33px;
-                                            background-color: turquoise;
                                             display: flex;
                                             align-items: center;
                                             justify-content: flex-end;
@@ -1201,7 +1281,6 @@ margin-top: 8px;
                                           .text-span12{
                                                 width:73px ;
                                                 height: 33px;
-                                                background-color: red;
                                                 font-size: 16px; color: var( --Genie);
                                                 line-height: 33px;
                                             }
@@ -1209,7 +1288,6 @@ margin-top: 8px;
                                             .svg2-container12{
                                                 width: 16px;
                                                 height: 16px;
-                                                background-color: red;
                                                 display: flex;
                                             }
                                         }
@@ -1217,7 +1295,6 @@ margin-top: 8px;
                                     .card-part2-row2{
                                         width: 201PX;
                                         height: 26px;
-                                        background-color: violet;
                                         display: flex;
                                         align-items: center;
                                         justify-content: space-between;
@@ -1226,7 +1303,6 @@ margin-top: 8px;
                                         .card-part2-row2-text{
                                             width: 55px;
                                             height: 26px;
-                                            background-color: slategray;
                                             margin-right: auto;
                                             align-self: flex-end;
                                             line-height: 26px;
@@ -1248,12 +1324,12 @@ margin-top: 8px;
 .container9{
     width: 100%;
     height: 404px;
-    background-color: violet;
+    /* background-color: violet; */
 
     .container9-part1{
         width:100% ;
         height: 404px;
-        background-color: tomato;
+        /* background-color: tomato; */
         border: 1px solid  var(--WindChime);
         display: flex;
         padding-top: 16px;
@@ -1266,7 +1342,7 @@ margin-top: 8px;
 
             width: 100%;
             height: 44px;
-            background-color: antiquewhite;
+            /* background-color: antiquewhite; */
             padding: 0 20px;
             display: flex;
             justify-content: space-between;
@@ -1277,9 +1353,9 @@ margin-top: 8px;
             
 
             .text-container9-1{
-                width: 279px;
-                height: 44px;
-                background-color: blueviolet;
+                width: 199px;
+                height: 45px;
+                /* background-color: blueviolet; */
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -1288,15 +1364,15 @@ margin-top: 8px;
                 .svg-container9{
                     width: 24px;
                     height: 24px;
-                    background-color: aquamarine;
+                    /* background-color: aquamarine; */
                     display: flex;
-                    margin-left: 8px;
+                    margin-left: 8px;              
                 }
 
                 & p{
                     width: 247px;
                     height: 44px;
-                    background-color: #EF3C51;
+                    /* background-color: #EF3C51; */
                     font-weight: 500;
                     line-height: 44px;
                     font-size: 21px;
@@ -1305,13 +1381,107 @@ margin-top: 8px;
                 }
             }
         }
+    
+    .container9-part2{
+        width:100%;
+        height: 298px;
+        margin-top: 28px;
+        padding: 0 8px;
+
+      .slider5{
+
+        width: 1318px;
+        height: 298px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        padding: 0;
+        list-style: none;
+        .swiper-wrapper{
+            width: 1318px;
+            height: 298px;
+            display: flex;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            box-sizing: content-box;
+        }
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .swiper-slide {
+        width: 314px;
+        height: 298px;
+        margin-left: 20px;
+
+        .a-slider5{
+            width: 314px;
+            height: 86px;
+            display: flex;
+            text-decoration: none;
+
+            .div-slider5{
+                width: 314px;
+                height: 86px;
+                display: flex;
+
+                .img-slider5{
+                    width: 86px;
+                    height: 86px;
+                    margin-left: 12px;
+
+                    & img{
+                        width: 86px;
+                        height: 86px;
+                        object-fit: contain;
+                    }
+                }
+                & span{
+                    width: 7px;
+                    height: 86px;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 12px;
+                    font-size: 21px;
+                    color: var(--Strongcyan);
+                    font-weight: 800;
+                }
+                
+                    
+                }
+                .p-slider5{
+                    width: 197px;
+                    height: 86px;
+                    display: flex;
+                    justify-content: center;
+                    flex-grow: 1;
+                    flex-direction: column;
+                    position: relative;
+                    font-size: 12px;
+                    color: var(--Genie);
+                }
+            }
+        }
+      
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      }
+      }
     }
-}
+
 
 .container14{
-    width: 100%;
+    width: 1336px;
     height: 319px;
-    background-color: yellow;
 
     .container14-part1{
         width: 100%;
@@ -1324,7 +1494,6 @@ margin-top: 8px;
         .text-container14{
             width: 69px;
             height: 33px;
-            background-color: aqua;
             color: #0c0c0c;
             font-size: 16px;
             line-height: 33px;
@@ -1332,7 +1501,6 @@ margin-top: 8px;
         & span{
             width: 168px;
             height: 26px;
-            background-color: violet;
             font-size: 12px;
             line-height: 26px;
             white-space: nowrap;
@@ -1340,7 +1508,6 @@ margin-top: 8px;
             & a{
                 width: 168px;
                 height: 26px;
-                background-color: teal;
                 display: flex;
                 text-decoration: none;
                 cursor: pointer;
@@ -1348,13 +1515,11 @@ margin-top: 8px;
                 & span{
                     width: 150px;
                     height: 26px;
-                    background-color: sienna;
                     color: #19bfd3;
                 }
                 .svg-container14{
                     width: 18px;
                     height: 18px;
-                    background-color: violet;
                     position: relative;
 
                     & svg{
@@ -1371,7 +1536,6 @@ margin-top: 8px;
     .container14-part2{
         width: 100%;
         height: 253px;
-        background-color: seagreen;
         display: grid;
         justify-content: space-around;
         grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
@@ -1381,7 +1545,6 @@ margin-top: 8px;
         & a{
             width: 325px;
             height: 253px;
-            background-color: royalblue;
             display: flex;
             margin-bottom: 4px;
             border-radius: 8px;
@@ -1394,7 +1557,6 @@ margin-top: 8px;
             .img-container14{
                 width: 323px;
                 height: 201px;
-                background-color: crimson;
         
                 & img{
                     width: 323px;
@@ -1406,7 +1568,6 @@ margin-top: 8px;
             .container14-part3{
                 width: 323px;
                 height: 26px;
-                background-color: seagreen;
                 text-align: right;
                 font-weight: 400;
                 font-size: 12px;
