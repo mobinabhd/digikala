@@ -168,7 +168,6 @@
         .footer-part1-row4{
             width: 100%;
             height: 270px;
-            background-color: yellow;
             display: flex;
             justify-content: space-between;
             margin-bottom: 32px;
@@ -176,14 +175,12 @@
             .footer-cont1{
                 width: 320px;
                 height: 270px;
-                background-color: turquoise;
                 display: block;
                 
 
                 & p{
                     width: 320px;
                     height: 33px;
-                    background-color: crimson;
                     display: block;
                     margin-bottom: 8px;
                     color:var(  --Genie) ;
@@ -196,7 +193,6 @@
                 .a-cont1{
                     width: 320px;
                     height: 31px;
-                    background-color: tomato;
                     display: block;
                     margin-bottom: 8px;
                     font-weight: 400;
@@ -212,13 +208,11 @@
             .footer-cont2{
                 width: 335px;
                 height: 270px;
-                background-color: sienna;
                 display: block;
 
                 & p{
                     width: 335px;
                     height: 33px;
-                    background-color: yellowgreen;
                     display: block;
                     margin-bottom: 8px;
                     margin-top: 0;
@@ -230,7 +224,6 @@
                 .a-cont2{
                     width: 335px;
                     height: 31px;
-                    background-color: seagreen;
                     display: block;
                     font-weight: 400;
                     color: var(--Darkgrayishblue);
@@ -244,12 +237,10 @@
             .footer-cont3{
                 width: 340px;
                 height: 270px;
-                background-color: rosybrown;
 
                 & p{
                     width: 340px;
                     height: 33px;
-                    background-color: gray;
                     display: block;
                     margin-bottom: 8px;
                     margin-top: 0;
@@ -261,7 +252,6 @@
                 .a-cont3{
                     width: 340px;
                     height: 33px;
-                    background-color: orangered;
                     display: block;
                     font-weight: 400;
                     color: var( --Darkgrayishblue);
@@ -275,17 +265,14 @@
             .footer-cont4{
                 width: 323px;
                 height: 270px;
-                background-color: cadetblue;
 
                 .footer-cont4-top{
                     width: 323px;
                     height: 33px;
-                    background-color: hotpink;
 
                     & h4{
                         width: 323px;
                         height: 33px;
-                        background-color: gold;
                         margin-bottom: 12px;
                         color: var(--Genie);
                         line-height: 33px  ;
@@ -293,20 +280,17 @@
                     .top-row1{
                         width: 323px;
                         height: 40px;
-                        background-color: lightsalmon;
                         display: flex;
 
                         & a{
                             width: 40px;
                             height: 40px;
-                            background-color: indigo;
                             margin-left: 32px;
                             cursor: pointer;
 
                             .svg-row4{
                                 width: 40px;
                                 height: 40px;
-                                background-color: salmon;
                                 display: flex;
                             }
                         }
@@ -316,7 +300,6 @@
                 .footer-cont4-bottom{
                     width: 322px;
                     height: 93px;
-                    background-color: darkgoldenrod;
                     display: flex;
                     margin-top: 90px;
                     align-items: flex-start;
@@ -345,7 +328,7 @@
                         & form{
                             width: 100%;
                             height: 48px;
-                            background-color: lime;
+                            background-color: #f0f0f1;
                             display: flex;
                             align-items: center;
                             gap: 10px;
@@ -385,6 +368,8 @@
                                         outline: none;
                                         border-radius: 4px;
                                         box-sizing: border-box;
+                                        background-color: transparent;
+                                        border: unset;
                                         
 }
                                 }
@@ -393,13 +378,14 @@
                         & button{
                             width: 54px;
                             height: 48px;
-                            background-color: lightskyblue;
+                            background-color: #e0e0e2 !important ;
+                            color: #fff !important;
                             display: flex;
                             margin-right: auto;
                             border: none;
                             border-radius: 4px;
-                          margin: 0 a;
-
+                          
+                         
                             .div-button2{
                                 width: 25px;
                                 height: 31px;
@@ -408,7 +394,8 @@
                                 justify-content: center;
                                 position: relative;
                                 margin: 0 auto;
-                                line-height: 31px;
+                                padding-top: 15px;
+                              
                             }
                         }
                         }

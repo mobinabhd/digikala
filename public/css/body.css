@@ -14,9 +14,8 @@ margin-top: 8px;
     .mahsolat{
         width: 100%;
         height: 143px;
-        
-        display: flex;
         padding: 8px 0;
+        display: flex;
         justify-content: space-around;
         align-items: flex-start;
         flex-wrap: nowrap;
@@ -74,7 +73,7 @@ margin-top: 8px;
 }
 .container1{
     width: 100%;
-    height: 220px;
+    /* height: 220px; */
     /* background-color: violet; */
     display: flex;
     padding: 0 16px;
@@ -85,13 +84,14 @@ margin-top: 8px;
 
     .img-container{
         
-       width: 20%;
-       height: 187px;
+       width: 23%;
+       height: 241px;
        margin-top: 17px;
        /* background-color: teal; */
        object-fit: cover;
        border-radius: 16px;
        display: flex;
+       flex-wrap: nowrap;
        
        & img{
         width: 100%;
@@ -104,17 +104,21 @@ margin-top: 8px;
 }
 }
 .container2{
-   width: 100%;
+   width: 98%;
    height: 110px;
-   /* margin: 0 11px; */
+   margin:16px 11px;
+
+   background: url(../images/freshPattern.svg) left center no-repeat;
+   z-index: 0;
+   position: absolute;
 
    .cont2{
     width: 100%;
     height: 100px;
    display: flex;
    overflow-x: hidden;
-   
-
+   align-items: center;
+   justify-content: space-between;
 
     & a{
         width: 100%;
@@ -129,6 +133,8 @@ margin-top: 8px;
         border-radius: 16px;
        justify-content: space-between;
        text-decoration: none;
+       background-color: #f0f0f1;
+     
 
        .cont2-right{
         width: 464px;
@@ -196,7 +202,6 @@ margin-top: 8px;
         width: 636px;
         height: 74px;
         display: flex;
-        background-color: fuchsia;
         align-items: center;
         justify-content: flex-start;
         z-index: 1;
@@ -207,8 +212,8 @@ margin-top: 8px;
             width: 492px;
             height: 74px;
             display: flex;
-            background-color: firebrick;
             justify-content: space-between;
+            align-items: center;
            
            /* .a-cont2{
                 width: 74px;
@@ -227,8 +232,8 @@ margin-top: 8px;
                 .img3-cont2{
                     width: 58px;
                     height: 58px;
-                    background-color: lightslategray;
-                    line-height: 58px;
+                    bottom: 0;
+                    
                   
                     & img{
                         width: 58px;
@@ -243,13 +248,14 @@ margin-top: 8px;
             .cont2-left2{
                 width: 144px;
                 height: 50px;
-                background-color: palevioletred;
                 display: flex;
                 border-radius: 9999px;
                 padding: 12px 20px;
                 color: #029a49;
                 justify-content: center;
                 align-items: center;
+                background-color: #fff;
+               margin: 7px;
 
                 & span{
                     width: 76px;
@@ -257,12 +263,12 @@ margin-top: 8px;
                     white-space: nowrap;
                     font-size: 12px;
                     color: #029a49;
+                    line-height: 26px;
                    
                 }
                 .svg1-cont2{
                     width: 20px;
                     height: 20px;
-                    background-color: darkgoldenrod;
                     display: flex;
                    text-align: center;
 
@@ -275,18 +281,21 @@ margin-top: 8px;
 /* } */
 .container3{
     width: 100%;
-    height: 220px;
+    /* height: 220px; */
     /* background-color: violet; */
     display: flex;
     padding: 0 16px ;
     gap: 16px;
     flex-flow: row wrap;
     justify-content: center;
+    margin-top: 116px;
+    justify-content: center;
+    
 
     .img-container{
         
-       width: 20%;
-       height: 187px;
+       width: 23%;
+       height: 241px;
        margin-top: 17px;
        /* background-color: teal; */
        object-fit: cover;
